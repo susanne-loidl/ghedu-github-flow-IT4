@@ -17,6 +17,7 @@ function calculate() {
         errorArea.hidden = true;
     }
 
+<<<<<<< HEAD
     let result;
     switch (operationSelect.value) {
         case 'add':
@@ -29,10 +30,15 @@ function calculate() {
             console.error('Invalid operation.');
             return;
     }
+=======
+    // ToDo: Call calculation logic. For now, we just assume the universal answer to everything ;-)
+    let result = 42;
+>>>>>>> 2ff1ae940c4683430b0e052384b4d9174c7040a8
 
     resultSpan.innerText = result.toString();
     resultArea.hidden = false;
 }
+<<<<<<< HEAD
 
 function add(x, y) {
     return x + y;
@@ -41,3 +47,5 @@ function add(x, y) {
 function div(x, y) {
     return x / y;
 }
+=======
+>>>>>>> 2ff1ae940c4683430b0e052384b4d9174c7040a8
